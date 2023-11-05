@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+ }
+ body{
+    background-color: black;
+ }
+ 
+ .calculator{
+     background-color: rgb(17, 14, 14);
+     padding: 10px;
+     border-radius: 20px;
+}
+
+    #user-input{
+       height: 80px;
+       color: white;
+       overflow: hidden;
+       max-width: 300px;
+        
+}
+
+ button{
+     height: 60px;
+     width: 60px;
+     font-size: 18px;
+     border: none;
+     border-radius: 20px;
+     margin: 3px;
+     background-color: rgb(41, 40, 40);
+     color: white;
+ }
+ 
